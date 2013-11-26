@@ -1,0 +1,4 @@
+verilog work "sign_extender.v"
+verilog work "EX_MUX.v"
+verilog work "ALU.v"
+verilog work "EX.v"

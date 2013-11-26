@@ -1,0 +1,6 @@
+verilog work "../../lab6.2/DFF.v"
+verilog work "pcSourceMUX.v"
+verilog work "Basic_SRAM.v"
+verilog work "../../lab6.2/nbit_reg.v"
+verilog work "../../lab6.2/myMUX.v"
+verilog work "IF.v"

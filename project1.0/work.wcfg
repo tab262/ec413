@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Casey/Desktop/ec413/project/project1.0/test_CPU_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_CPU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/test_CPU/PCtoInsMem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCtoInsMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCtoInsMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/PCtoID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCtoID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCtoID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/IFinstructions" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IFinstructions[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFinstructions[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/IF_ID_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/IF_ID_INSTRUCTIONS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_ID_INSTRUCTIONS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_INSTRUCTIONS[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/rs1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/readData1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/rs2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/readData2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/controls" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">controls[31:0]</obj_property>
+      <obj_property name="ObjectShortName">controls[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/ID_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/PCSource" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCSource</obj_property>
+      <obj_property name="ObjectShortName">PCSource</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/locations" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">locations[25:0]</obj_property>
+      <obj_property name="ObjectShortName">locations[25:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/SE_Imm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SE_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SE_Imm[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/ID_EX_Rdata1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX_Rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rdata1[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/ID_EX_Rdata2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX_Rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rdata2[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/ID_EX_Controls" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX_Controls[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Controls[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/ID_EX_Locations" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX_Locations[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Locations[25:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempALUOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempALUOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempALUOut[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/ImmMemData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ImmMemData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmMemData[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/MUXA_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MUXA_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MUXA_Out[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/EX_DEST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_DEST[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_DEST[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/EX_MEM_ImmMemData" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">EX_MEM_ImmMemData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ImmMemData[31:0]</obj_property>
+      <obj_property name="label">EX_MEM_ImmMemData[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/EX_MEM_CONTROLS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM_CONTROLS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_CONTROLS[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/EX_MEM_ALUOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM_ALUOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUOut[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/EX_MEM_DEST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM_DEST[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_DEST[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/MEM_MemoryOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_MemoryOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_MemoryOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/MEM_WB_CONTROLS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_CONTROLS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_CONTROLS[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/MEM_WB_ALUout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_ALUout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALUout[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/MEM_WB_MemoryOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_MemoryOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_MemoryOut[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/MEM_WB_DEST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB_DEST[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_DEST[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/WB_writeBackData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WB_writeBackData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_writeBackData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempPCWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tempPCWrite</obj_property>
+      <obj_property name="ObjectShortName">tempPCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempPCSource" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tempPCSource</obj_property>
+      <obj_property name="ObjectShortName">tempPCSource</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempGeneralWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tempGeneralWrite</obj_property>
+      <obj_property name="ObjectShortName">tempGeneralWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempID_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempWriteData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempWriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempWriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_CPU/tempWriteSelect" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tempWriteSelect[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tempWriteSelect[5:0]</obj_property>
+   </wvobject>
+</wave_config>

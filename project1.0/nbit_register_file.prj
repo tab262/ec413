@@ -1,0 +1,4 @@
+verilog work "../../lab6.2/nbit_mux.v"
+verilog work "../../lab6.2/nbit_demux.v"
+verilog work "../../lab6.2/DFF.v"
+verilog work "../../lab6.2/nbit_register_file.v"

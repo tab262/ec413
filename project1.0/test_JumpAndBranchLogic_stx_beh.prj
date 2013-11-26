@@ -1,0 +1,3 @@
+verilog isim_temp "JumpAndBranchLogic.v"
+verilog isim_temp "test_JumpAndBranchLogic.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,3 @@
+verilog work "../../lab6.2/DFF.v"
+verilog work "../../lab6.2/nbit_reg.v"
+verilog work "IF_ID.v"
