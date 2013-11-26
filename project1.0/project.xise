@@ -15,14 +15,14 @@
   <version xil_pn:ise_version="14.6" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="../../lab6.2/Full_Adder.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="../../lab5/bitSplice/IDEAL_ALU.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="Full_Adder.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="IDEAL_ALU.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="IF.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="17"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../lab6.2/DFF.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="../../lab6.2/nbit_reg.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="DFF.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="nbit_reg.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="Basic_SRAM.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
@@ -40,7 +40,7 @@
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="33"/>
     </file>
     <file xil_pn:name="pcSourceMUX.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="test_pcSourceMUX.v" xil_pn:type="FILE_VERILOG">
@@ -49,7 +49,7 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="34"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="34"/>
     </file>
-    <file xil_pn:name="../../lab6.2/myMUX.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="myMUX.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="IF_ID.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
@@ -68,14 +68,14 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="19"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../lab6.2/nbit_demux.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="../../lab6.2/nbit_mux.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="nbit_demux.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="nbit_mux.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="ID.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="18"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
     </file>
     <file xil_pn:name="ID_Controller.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="11"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
     </file>
     <file xil_pn:name="ID_EX.v" xil_pn:type="FILE_VERILOG">
@@ -83,7 +83,7 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="sign_extender.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
     <file xil_pn:name="test_sign_extender.v" xil_pn:type="FILE_VERILOG">
@@ -115,7 +115,7 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="JumpAndBranchLogic.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="8"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
     </file>
     <file xil_pn:name="test_JumpAndBranchLogic.v" xil_pn:type="FILE_VERILOG">
@@ -124,8 +124,8 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="96"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="96"/>
     </file>
-    <file xil_pn:name="../providedCode/IMem.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
+    <file xil_pn:name="IMem.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="9"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="test_ID.v" xil_pn:type="FILE_VERILOG">
@@ -153,7 +153,7 @@
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="112"/>
     </file>
     <file xil_pn:name="EX_MUX.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="12"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="11"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="ALU.v" xil_pn:type="FILE_VERILOG">
@@ -182,8 +182,8 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="16"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../providedCode/DMem.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
+    <file xil_pn:name="DMem.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="12"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="test_MEM.v" xil_pn:type="FILE_VERILOG">
@@ -206,8 +206,8 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="165"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="165"/>
     </file>
-    <file xil_pn:name="../../lab6.2/nbit_register_file.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="../../lab6.2/nbit_register_file_test.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="nbit_register_file.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="nbit_register_file_test.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="ID2.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="152"/>
@@ -219,7 +219,7 @@
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="153"/>
     </file>
     <file xil_pn:name="nbit_reg.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="9"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="154"/>
     </file>
     <file xil_pn:name="DFF.v" xil_pn:type="FILE_VERILOG">
@@ -227,7 +227,7 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="155"/>
     </file>
     <file xil_pn:name="nbit_register_file.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="8"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="156"/>
     </file>
     <file xil_pn:name="nbit_mux.v" xil_pn:type="FILE_VERILOG">

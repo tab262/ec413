@@ -5,19 +5,19 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/project1.0/EX.v" Line 40: Redeclaration of ansi port <arg fmt="%s" index="1">MUXA_OUT</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/ec413/project1.0/EX.v" Line 40: Redeclaration of ansi port <arg fmt="%s" index="1">MUXA_OUT</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/project1.0/CPU.v" Line 144: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nD</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">26</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/ec413/project1.0/CPU.v" Line 144: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nD</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">26</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/project1.0/EX.v" Line 49: Concatenation with unsized literal; will interpret as 32 bits
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/ec413/project1.0/EX.v" Line 49: Concatenation with unsized literal; will interpret as 32 bits
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/project1.0/EX.v" Line 49: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">i1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">48</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/ec413/project1.0/EX.v" Line 49: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">i1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">48</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/project1.0/MEM.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Address</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/Casey/Desktop/ec413/project/ec413/project1.0/MEM.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Address</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
 </messages>

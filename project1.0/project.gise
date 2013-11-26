@@ -132,15 +132,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1385421120" xil_pn:in_ck="-2011891653079822299" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1385421119">
+    <transform xil_pn:end_ts="1385474613" xil_pn:in_ck="-7139935613743005887" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1385474613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="../providedCode/DMem.v"/>
-      <outfile xil_pn:name="../providedCode/IMem.v"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="Basic_SRAM.v"/>
       <outfile xil_pn:name="BranchCalc.v"/>
@@ -148,6 +142,7 @@
       <outfile xil_pn:name="CPU.v"/>
       <outfile xil_pn:name="CPU2.v"/>
       <outfile xil_pn:name="DFF.v"/>
+      <outfile xil_pn:name="DMem.v"/>
       <outfile xil_pn:name="EX.v"/>
       <outfile xil_pn:name="EX_MUX.v"/>
       <outfile xil_pn:name="ID.v"/>
@@ -158,6 +153,7 @@
       <outfile xil_pn:name="IF_ID.v"/>
       <outfile xil_pn:name="IF_ID_Instructions.v"/>
       <outfile xil_pn:name="IF_ID_PCplusOne.v"/>
+      <outfile xil_pn:name="IMem.v"/>
       <outfile xil_pn:name="JConcat.v"/>
       <outfile xil_pn:name="JumpAndBranchLogic.v"/>
       <outfile xil_pn:name="MEM.v"/>
@@ -198,16 +194,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1385421120" xil_pn:in_ck="-2011891653079822299" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1385421120">
+    <transform xil_pn:end_ts="1385474613" xil_pn:in_ck="-7139935613743005887" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1385474613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="../providedCode/DMem.v"/>
-      <outfile xil_pn:name="../providedCode/IMem.v"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="Basic_SRAM.v"/>
       <outfile xil_pn:name="BranchCalc.v"/>
@@ -215,6 +204,7 @@
       <outfile xil_pn:name="CPU.v"/>
       <outfile xil_pn:name="CPU2.v"/>
       <outfile xil_pn:name="DFF.v"/>
+      <outfile xil_pn:name="DMem.v"/>
       <outfile xil_pn:name="EX.v"/>
       <outfile xil_pn:name="EX_MUX.v"/>
       <outfile xil_pn:name="ID.v"/>
@@ -225,6 +215,7 @@
       <outfile xil_pn:name="IF_ID.v"/>
       <outfile xil_pn:name="IF_ID_Instructions.v"/>
       <outfile xil_pn:name="IF_ID_PCplusOne.v"/>
+      <outfile xil_pn:name="IMem.v"/>
       <outfile xil_pn:name="JConcat.v"/>
       <outfile xil_pn:name="JumpAndBranchLogic.v"/>
       <outfile xil_pn:name="MEM.v"/>
@@ -253,13 +244,10 @@
       <outfile xil_pn:name="test_readSelect_SELECTOR.v"/>
       <outfile xil_pn:name="test_sign_extender.v"/>
     </transform>
-    <transform xil_pn:end_ts="1385421123" xil_pn:in_ck="-2011891653079822299" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8845048095751810219" xil_pn:start_ts="1385421120">
+    <transform xil_pn:end_ts="1385474617" xil_pn:in_ck="-7139935613743005887" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8845048095751810219" xil_pn:start_ts="1385474613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -268,10 +256,9 @@
       <outfile xil_pn:name="test_CPU_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1385421123" xil_pn:in_ck="-2643682169044159528" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4735519148554475278" xil_pn:start_ts="1385421123">
+    <transform xil_pn:end_ts="1385474617" xil_pn:in_ck="-2643682169044159528" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4735519148554475278" xil_pn:start_ts="1385474617">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
